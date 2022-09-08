@@ -1,0 +1,1 @@
+![diagrama](https://github.com/nazhG/tema-2-practicas-DB/blob/master/1/cuentasbancarias.png?raw=true)
