@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pueden tener varias / esta en una" directorySegmentName="seg_0" id="E408109B-A3B4-BE64-D9C7-8743B216AEB3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:42:03 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<sourcePk>CDE6A17C-B3AF-00D8-88BC-C75C8322092D</sourcePk>
+<targetPk>C5987B84-233F-F497-9C71-1F232A503AA9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01ADABCA-9272-D727-5CAC-730C5593B953</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>480AEED1-B81C-72EE-A54A-989BBE9F242E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

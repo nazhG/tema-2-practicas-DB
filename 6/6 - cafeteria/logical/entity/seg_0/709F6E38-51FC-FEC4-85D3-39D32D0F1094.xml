@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="709F6E38-51FC-FEC4-85D3-39D32D0F1094" name="producto">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:22:11 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="890F16E1-BBE5-4E91-0F2E-17F5459196C6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:22:22 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="9848492F-7416-E04A-BDC3-6F728605A326">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:22:44 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="1DE4B2D0-92B1-0C84-16ED-DC80C90B330C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:22:57 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D75C2738-9C2B-19F0-1E76-55352164BB74" name="producto PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:22:33 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>890F16E1-BBE5-4E91-0F2E-17F5459196C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

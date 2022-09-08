@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="480AEED1-B81C-72EE-A54A-989BBE9F242E" name="sucursal">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-07 23:05:23 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>suc</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sucursal" id="8C28B468-88E8-CB0D-7AA4-77560A5E6C55">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-07 23:06:46 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirreccion" id="AB0AA7A4-5035-87D7-ABE3-999272797757">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-07 23:12:24 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad1" id="5F048AAE-9C06-C5AE-95D7-C9498FA6B200">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:42:03 UTC</createdTime>
+<generatorID>E408109B-A3B4-BE64-D9C7-8743B216AEB3</generatorID>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<referedAttribute>04189A77-CE7A-D88C-B512-802EAC382EAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5987B84-233F-F497-9C71-1F232A503AA9" name="sucursal PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-07 23:10:56 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C28B468-88E8-CB0D-7AA4-77560A5E6C55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

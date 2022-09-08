@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puede tener una / debe de tener al menos una pesona" directorySegmentName="seg_0" id="640F258E-B779-B860-E8C1-A04D88E80756">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:46:27 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<sourcePk>580A66D5-B8F7-AB08-F817-1CDF50CB56F9</sourcePk>
+<targetPk>F1981A71-8552-45A7-38E9-35DE9C488B3B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EE695973-6401-0248-A717-742F40F352FF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>440FF304-634F-5ED1-2F50-1097EF4311D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

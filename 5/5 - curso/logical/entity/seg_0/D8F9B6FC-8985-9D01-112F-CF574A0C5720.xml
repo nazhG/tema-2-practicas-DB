@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8F9B6FC-8985-9D01-112F-CF574A0C5720" name="alumno">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:59:12 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aumno" id="0AE01A5B-6014-0574-7968-CD36A737BAE2">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:59:19 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0A025C1D-B0D5-EDE5-61EB-B9F0CE2E915E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:59:29 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="F945FD88-AE35-360F-6AF6-E75C550F7B66">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:59:42 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="499A32B8-E025-DDE4-F80D-5FF5129DCAB8" name="alumno PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:59:27 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0AE01A5B-6014-0574-7968-CD36A737BAE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

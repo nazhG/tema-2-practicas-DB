@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0B4C17F0-F068-9AA4-7B57-DBD60E76A446">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:18:56 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

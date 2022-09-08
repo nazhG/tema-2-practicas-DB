@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puede dictar varios / es dictado por un" directorySegmentName="seg_0" id="ADA09809-F584-FEAA-3091-AA131CF594FB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:07:45 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<sourcePk>4B1962AB-348F-B843-538E-D82BA702998B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3795A70-29B8-5547-122B-3BBEE356963A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>922CE696-6BAA-2DAC-3F2E-4392F97E6D13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

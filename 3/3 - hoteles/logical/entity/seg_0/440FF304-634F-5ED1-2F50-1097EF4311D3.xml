@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="440FF304-634F-5ED1-2F50-1097EF4311D3" name="estancia">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:41:25 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_instancia" id="26665AEF-9AD8-063B-17BE-6F886D6E617B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:41:35 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="7E6C64F8-E602-9A07-5B7F-EC13C7CF8718">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:41:53 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="173F51DD-4714-77E7-39E0-368DAB776203">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:42:11 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habitacion" id="F5C84C59-E7E7-61CC-7909-B41462B37FB9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:45:42 UTC</createdTime>
+<generatorID>FC3A413F-2920-27A1-7D5E-4878F4924C42</generatorID>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<referedAttribute>B11A8BF6-F828-76DC-8120-ED60362F8D49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1981A71-8552-45A7-38E9-35DE9C488B3B" name="estancia PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:41:50 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26665AEF-9AD8-063B-17BE-6F886D6E617B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

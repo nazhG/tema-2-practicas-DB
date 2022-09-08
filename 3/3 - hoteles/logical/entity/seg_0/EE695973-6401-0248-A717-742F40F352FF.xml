@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE695973-6401-0248-A717-742F40F352FF" name="persona">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:40:32 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cedula" id="611649C0-2A0A-6FDF-2188-725FCB2355E1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:40:48 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7F19B806-2B65-A29F-3117-0E992AF57D6F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:41:04 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_instancia" id="29580E4C-267C-FF51-AFE0-6ED73D42AC07">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:48:16 UTC</createdTime>
+<generatorID>640F258E-B779-B860-E8C1-A04D88E80756</generatorID>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>26665AEF-9AD8-063B-17BE-6F886D6E617B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="580A66D5-B8F7-AB08-F817-1CDF50CB56F9" name="persona PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:40:51 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>611649C0-2A0A-6FDF-2188-725FCB2355E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

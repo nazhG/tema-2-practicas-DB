@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0DB247BD-6896-21C5-93CA-8AD33C117743" mainViewID="85CDC5DD-E477-0685-852B-6692F5873F29">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:18:56 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

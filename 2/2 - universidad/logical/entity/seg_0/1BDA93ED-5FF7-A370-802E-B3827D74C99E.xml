@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BDA93ED-5FF7-A370-802E-B3827D74C99E" name="seccion">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:07:16 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_seccion" id="955B16E7-DFBD-8BB9-F242-BA117F763CFA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:11:40 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_alumnos" id="D293C4D4-6E01-73BB-0F2C-8B4C56CCDBCA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:11:53 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_asignatura" id="21D22B66-396A-52F9-31EF-2F580334EBAA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:16:15 UTC</createdTime>
+<generatorID>705D9858-2E29-78FC-D8FA-C5F254AE2E0C</generatorID>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<referedAttribute>58FA05FA-5F79-1592-99E5-107FFFD222D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aula" id="65E853EB-2819-7A3B-6B16-268A536CE208">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:22:49 UTC</createdTime>
+<generatorID>8F1F4882-6901-8A53-444A-02F164F3EDB1</generatorID>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>088BF3CB-439D-C385-1738-83F27D207CBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="445204EA-F638-972F-BD36-A5D3D229F910" name="seccion PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:11:47 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>955B16E7-DFBD-8BB9-F242-BA117F763CFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

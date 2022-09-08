@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C6504DA-2548-1F7B-D737-57055F83E3F4" name="transaccion">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:27:57 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transaccion" id="296DCB60-D739-00FC-FB5D-7DE012EE0688">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:28:13 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_transaccion" id="A8CBE526-ECEF-40EB-138F-0DF2462E1E25">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:28:27 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente_acreditando" id="8EA4D61D-CA03-8532-08DA-180AA0510378">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:31:14 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="ECE5BB70-E79C-175B-ABB0-EDB37A579DC4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:31:37 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="0D03A85E-3FD2-267C-1278-2CF393045F9F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:35:56 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cuenta" id="F6136D84-19E6-BC8E-A623-F54E5E26A9DE">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 04:06:39 UTC</createdTime>
+<generatorID>C8267EAE-F853-59A8-5AFD-62BD1EC6071A</generatorID>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<referedAttribute>E0DDC65A-9490-B7AA-F7E5-C581D3355F74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="950C06F8-AC37-D4EB-6DEC-C1EEC826A1E5" name="transaccion PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:28:20 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>296DCB60-D739-00FC-FB5D-7DE012EE0688</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

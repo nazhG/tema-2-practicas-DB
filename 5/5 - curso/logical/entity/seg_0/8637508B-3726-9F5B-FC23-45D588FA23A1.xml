@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8637508B-3726-9F5B-FC23-45D588FA23A1" name="tematica_curso">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:55:40 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tematica_curso" id="F0B68ECE-4B3D-6EC9-2192-1D5AD83F9053">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:55:48 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2B8235AA-A677-73AF-11D5-1CAAE5F71ED7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:55:53 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="7D148E26-57BB-318A-96BF-2B5772851465">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:56:07 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_instructor" id="75BBE2F2-8B6F-BB3F-7FEB-367E87328175">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:07:41 UTC</createdTime>
+<generatorID>4C2C991B-A29F-8BC1-AACA-F6A497D2BDB1</generatorID>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<referedAttribute>98A5B782-A02D-1AED-C1CF-E217F4CAA813</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54D3243B-353D-2CC6-1A3F-5C4A34E3EAD3" name="curso PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:55:52 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - curso</ownerDesignName>
+<engineerTo>
+<item key="1D3A05E2-9842-8430-FCA4-4C80E3AB8BA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0B68ECE-4B3D-6EC9-2192-1D5AD83F9053</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

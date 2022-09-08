@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D7FE808-A819-3019-E2A8-0CB680F723AD" name="cuenta">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:21:12 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cuenta" id="E0DDC65A-9490-B7AA-F7E5-C581D3355F74">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:21:39 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo" id="02709D27-7C82-9E83-A39A-1F253CB76DE4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:22:17 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sucursal2" id="61F1B74B-0AE4-21C0-BBE0-B214C0959ADC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:52:03 UTC</createdTime>
+<generatorID>40FAF680-370E-055F-AF30-A2865ACE2789</generatorID>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<referedAttribute>8C28B468-88E8-CB0D-7AA4-77560A5E6C55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente2" id="358049CD-C760-1E7B-7AEB-5E9BAB6410B6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 04:05:59 UTC</createdTime>
+<generatorID>ABD2A5FC-0E68-19FF-D26A-0EA1A7D46398</generatorID>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<referedAttribute>37F66E7B-0741-F5D8-D828-BBD5C5A9FC82</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AF95FB8-F639-91EE-DE41-33DA011D5585" name="cuenta PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 03:21:51 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<engineerTo>
+<item key="F06B955F-241F-A678-8982-1E362D441CFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0DDC65A-9490-B7AA-F7E5-C581D3355F74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

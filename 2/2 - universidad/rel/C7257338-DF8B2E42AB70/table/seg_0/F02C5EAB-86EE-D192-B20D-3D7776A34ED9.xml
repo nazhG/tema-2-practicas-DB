@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F02C5EAB-86EE-D192-B20D-3D7776A34ED9" name="aula">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:06:28 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72C74440-FC95-1713-4D48-687F1C720C04" name="detalle_factura">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:26:46 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="B44D90F6-B420-9156-DE43-99E300016819">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:26:58 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeo_recibo" id="131993EC-F2BD-839B-B894-E2FE1E70F287">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:27:54 UTC</createdTime>
+<generatorID>8E9F083B-4465-5666-12D9-1BEF0893F7C6</generatorID>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<referedAttribute>E84D90FA-266E-E765-E67C-BD5855260160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89F42E66-395C-B7D1-1BEA-A44829D8B6F0" name="detalle_factura PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:28:29 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

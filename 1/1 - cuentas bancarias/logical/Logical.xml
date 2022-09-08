@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D3800389-E39B-9E6A-D1DD-E9BD867D8C32" mainViewID="4B5AF732-2173-7CF2-5269-FB0709A94A24">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-07 21:24:26 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 1 - cunetas bancarias</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

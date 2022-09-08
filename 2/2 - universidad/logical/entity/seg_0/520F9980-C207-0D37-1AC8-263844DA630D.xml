@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="520F9980-C207-0D37-1AC8-263844DA630D" name="examem_final">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:08:49 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="punta_a_evaluar" id="0C109A5F-74F6-D86D-08D0-569915F01C66">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:12:45 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="128D8A40-9299-C3BC-D00F-29BDC59C25C8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:13:36 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_asignatura" id="19D2AD37-A42E-669D-77C9-6107FF91D181">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:15:40 UTC</createdTime>
+<generatorID>EE5DE464-97A3-DCDB-E313-DB4617D7E994</generatorID>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<referedAttribute>58FA05FA-5F79-1592-99E5-107FFFD222D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C339E7D5-8F6F-C0C0-A17C-4880DCB114D1" name="examem_final PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:13:01 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19D2AD37-A42E-669D-77C9-6107FF91D181</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

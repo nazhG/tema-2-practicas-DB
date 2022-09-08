@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB840B38-FBB2-5F4F-D53D-EC1A9A3AC1EA" name="recibo">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:19:51 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeo_recibo" id="E84D90FA-266E-E765-E67C-BD5855260160">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:20:00 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="60C7DC84-1E4B-1701-7690-E3700417085F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:20:22 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mesero" id="DFBCADEE-6FAC-E16E-E773-605A7F9FB3B2">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:21:01 UTC</createdTime>
+<generatorID>866AB1F7-06D4-209A-F97A-242E82FE00B0</generatorID>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<referedAttribute>B300CAE8-F397-02E1-C911-8AA3DCE18860</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="froma__pago" id="FD108A8E-E55C-2F85-163E-A7123A1F74D3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:23:30 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="194DAEC8-8EAF-4264-2DC4-DC3DE4D58134">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:24:43 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pago" id="905A3585-9D72-635F-1723-C4CA764F5A67">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:24:11 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="retorno" id="1833BF43-71B9-0C78-0366-34A746B22DEF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:23:46 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F91D71FD-94C6-5ABF-3A6B-8318F23558C5" name="recibo PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:20:10 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E84D90FA-266E-E765-E67C-BD5855260160</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

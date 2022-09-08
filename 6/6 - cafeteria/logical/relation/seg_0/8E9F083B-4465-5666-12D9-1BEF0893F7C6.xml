@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene muchos / pertenece a una " directorySegmentName="seg_0" id="8E9F083B-4465-5666-12D9-1BEF0893F7C6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 06:27:54 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 5 - cafeteria</ownerDesignName>
+<engineerTo>
+<item key="77DDA38D-2497-4EF1-95BD-9D456A72E5DC" value="true"/>
+</engineerTo>
+<sourcePk>F91D71FD-94C6-5ABF-3A6B-8318F23558C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB840B38-FBB2-5F4F-D53D-EC1A9A3AC1EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72C74440-FC95-1713-4D48-687F1C720C04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

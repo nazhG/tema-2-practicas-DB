@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0250B724-24AC-E73E-F44F-CE324EDF5C99" name="asignatura">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:07:04 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_asignatura" id="58FA05FA-5F79-1592-99E5-107FFFD222D1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:10:46 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9104F25D-1B7B-5666-F83B-B3DEA6EE8B45">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:11:07 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_asignatura1" id="6CAB2C83-FF2E-E2EA-5C70-8ACBEED43086">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:25:22 UTC</createdTime>
+<generatorID>EE5DE464-97A3-DCDB-E313-DB4617D7E994</generatorID>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<referedAttribute>19D2AD37-A42E-669D-77C9-6107FF91D181</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EDEF0EA-DFE1-0790-B5D4-27EA551AD71C" name="asignatura PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:11:20 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<engineerTo>
+<item key="C7257338-77CA-91C4-2D5C-DF8B2E42AB70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58FA05FA-5F79-1592-99E5-107FFFD222D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

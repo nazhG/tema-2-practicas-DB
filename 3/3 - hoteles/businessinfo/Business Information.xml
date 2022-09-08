@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2ADBB7E8-F27D-C764-0B6A-43EBC17F3A34">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:37:49 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

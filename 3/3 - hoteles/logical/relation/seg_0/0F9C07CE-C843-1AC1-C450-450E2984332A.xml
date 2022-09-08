@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene vairas / esta en un" directorySegmentName="seg_0" id="0F9C07CE-C843-1AC1-C450-450E2984332A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:43:40 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<engineerTo>
+<item key="CD6ED2A2-5BE0-B316-BE02-41DA69FC5205" value="true"/>
+</engineerTo>
+<sourcePk>53DCD33F-A049-F17C-9FEA-C812CE6928E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B4FD81F-F83B-C22D-8389-358ABDA0EDFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A83E8896-E8CC-456F-D3B8-B57007AF80B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

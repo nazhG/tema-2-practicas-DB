@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6C291E5C-14D8-D2BC-3B46-7DB173F82A48" mainViewID="4B198289-2B75-55BC-0367-4843A3A31555">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:37:48 UTC</createdTime>
+<ownerDesignName>tema 2 - prectica 3 - hoteles</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

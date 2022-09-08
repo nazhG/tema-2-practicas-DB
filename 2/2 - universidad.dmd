@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tema 2 - practica 2 - universidad" id="4800C05F-6659-1244-E2A7-658443411575" version="3.5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-08 05:01:31 UTC</createdTime>
+<ownerDesignName>tema 2 - practica 2 - universidad</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4800C05F-6659-1244-E2A7-658443411575</designId>
+</OSDM_Design>
