@@ -1,0 +1,1 @@
+![diagrama](https://github.com/nazhG/tema-2-practicas-DB/blob/master/2/universidad.png?raw=true)
